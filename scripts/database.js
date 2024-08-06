@@ -6,7 +6,7 @@ const database = {
         { id: 4, location: "Antwerp, Belgium", volume: "12.04" }
     ],
     haulers:[
-        {id: 1, name: "Big Boy", dockId: 1 },
+        {id: 1, name: "Big Boy", dockId: 2 },
         {id: 2, name: "The Taj Ma Haul", dockId: 2},
         {id: 3, name:"Haul n Boats", dockId: 4},
         {id: 4, name: "Old Hauler", dockId: 2}
