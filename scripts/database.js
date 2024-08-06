@@ -10,7 +10,14 @@ const database = {
         {id: 2, name: "The Taj Ma Haul"},
         {id: 3, name:"Haul n Boats"},
         {id: 4, name: "Old Hauler"}
+    ],
+    shippingShips: [
+        {id: 1, name: "Little Guy" },
+        {id: 2, name: "Shrimp"},
+        {id: 3, name: "Cargo Robbie"},
+        {id: 4, name: "Lil Baby"}
     ]
+
 }
 
 export const  getDocks = () =>{
@@ -18,4 +25,7 @@ export const  getDocks = () =>{
 }
 export const getHaulers =() => {
     return database.haulers.map(hauler => ({...hauler}))
+}
+export const getShippingShips = () => {
+    return database.shippingShips.map(ships => ({...ships}))
 }
